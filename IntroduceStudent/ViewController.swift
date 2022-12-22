@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberOfPetsLabel: UILabel!
     var toggleButtonChecked = false;
     
+    @IBOutlet weak var majorTextField: UITextField!
     @IBOutlet weak var themeToggleButton: UIButton!
     
     override func viewDidLoad() {
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         
         // Creating a variable of type string, that holds an introduction. The introduction interpolates the values from the text fields provided.
         // Currently we can only present the information in a print statement. However, this lets us verify that our app is printing out what is intended!
-        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets."
+        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!) year and I own \(numberOfPetsLabel.text!) dogs. My major is \(majorTextField.text!)! It is \(morePetsSwitch.isOn) that I want more pets."
         
         
         // Creates the alert where we pass in our message, which our introduction.
@@ -52,11 +53,11 @@ class ViewController: UIViewController {
     
     @IBAction func changeBackground(_ sender: UIButton) {
         if (!toggleButtonChecked) {
-            self.view.backgroundColor = UIColor.blue;
+            view.overrideUserInterfaceStyle = .dark
             toggleButtonChecked = true;
         }
         else {
-            self.view.backgroundColor = UIColor.white;
+            view.overrideUserInterfaceStyle = .light
             toggleButtonChecked = false;
         }
     }
