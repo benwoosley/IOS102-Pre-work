@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var schoolNameTextField: UITextField!
-    
     @IBOutlet weak var yearSegmentedControl: UISegmentedControl!
-    
     @IBOutlet weak var numberOfPetsLabel: UILabel!
+    var toggleButtonChecked = false;
+    
+    @IBOutlet weak var themeToggleButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,5 +48,16 @@ class ViewController: UIViewController {
         alertController.addAction(action)
         
         present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func changeBackground(_ sender: UIButton) {
+        if (!toggleButtonChecked) {
+            self.view.backgroundColor = UIColor.blue;
+            toggleButtonChecked = true;
+        }
+        else {
+            self.view.backgroundColor = UIColor.white;
+            toggleButtonChecked = false;
+        }
     }
 }

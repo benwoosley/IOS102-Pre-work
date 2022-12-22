@@ -110,6 +110,15 @@
                                     <action selector="stepperDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="tyx-Ur-FGa"/>
                                 </connections>
                             </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="si3-zR-FVN">
+                                <rect key="frame" x="158" y="745" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Theme"/>
+                                <connections>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBt-Bb-7jn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -121,6 +130,7 @@
                         <outlet property="morePetsSwitch" destination="OrD-1n-B1h" id="qmI-gD-tnb"/>
                         <outlet property="numberOfPetsLabel" destination="GL3-ct-27c" id="Qd2-JM-MpP"/>
                         <outlet property="schoolNameTextField" destination="Ra2-ZP-vSK" id="A8R-0h-gof"/>
+                        <outlet property="themeToggleButton" destination="si3-zR-FVN" id="139-M3-J7j"/>
                         <outlet property="yearSegmentedControl" destination="PAa-dO-DcM" id="n1m-D2-hD9"/>
                     </connections>
                 </viewController>
