@@ -1,6 +1,8 @@
-## NAME_OF_YOUR_APP_HERE
+## University of Kentucky Student Introduction
 
 ### App Description
+
+This IOS app is built for university students to introduce themselves! This includes name, graduation date, school and pets! 🐶🐱
 
 `TODO://` Add app description
 
@@ -10,15 +12,13 @@
 
 <!-- <img src="YOUR_GIF_URL_HERE" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br> -->
 
-`TODO://` In the Features section below, add an `x` between the `-[ ]` like this `- [x]` for any features you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 ### Required Features
 
 - [x] 1. App displays an image of a school's logo
 - [x] 2. App has three textfields for first, last, and school names
 - [x] 3. App has a segmented control that changes student year
 - [x] 4. Number of pet matches label is increased/decreased by stepper
-- [x] 5. Switch makes a statement about wanting more pets or not(true/false) 
+- [x] 5. Switch makes a statement about wanting more pets or not(true/false)
 - [x] 6. Introduce yourself button shows alert box with an introduciton and dismiss button
 
 ### Optional Features
