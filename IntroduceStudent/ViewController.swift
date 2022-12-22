@@ -16,15 +16,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var schoolNameTextField: UITextField!
     @IBOutlet weak var yearSegmentedControl: UISegmentedControl!
     @IBOutlet weak var numberOfPetsLabel: UILabel!
-    var toggleButtonChecked = false;
-    
     @IBOutlet weak var majorTextField: UITextField!
     @IBOutlet weak var themeToggleButton: UIButton!
+    var toggleButtonChecked = false;
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func stepperDidChange(_ sender: UIStepper) {
         numberOfPetsLabel.text = "\(Int(sender.value))"
    }
