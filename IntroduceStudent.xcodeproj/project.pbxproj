@@ -16,8 +16,6 @@
 		392967482952DD1D004BA84A /* IntroduceStudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392967472952DD1D004BA84A /* IntroduceStudentTests.swift */; };
 		392967522952DD1D004BA84A /* IntroduceStudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392967512952DD1D004BA84A /* IntroduceStudentUITests.swift */; };
 		392967542952DD1D004BA84A /* IntroduceStudentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392967532952DD1D004BA84A /* IntroduceStudentUITestsLaunchTests.swift */; };
-		39EF8E142953FA3D002FA387 /* RobotoSlab-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39EF8E132953FA3D002FA387 /* RobotoSlab-VariableFont_wght.ttf */; };
-		39EF8E182953FAC0002FA387 /* PMINGLIU.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39EF8E172953FAC0002FA387 /* PMINGLIU.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +50,6 @@
 		392967512952DD1D004BA84A /* IntroduceStudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceStudentUITests.swift; sourceTree = "<group>"; };
 		392967532952DD1D004BA84A /* IntroduceStudentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceStudentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		39AE8A2F2953F30300DC1CB1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		39EF8E132953FA3D002FA387 /* RobotoSlab-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-VariableFont_wght.ttf"; path = "../../../Library/Fonts/RobotoSlab-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		39EF8E172953FAC0002FA387 /* PMINGLIU.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PMINGLIU.ttf; path = ../../../Library/Fonts/PMINGLIU.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +123,6 @@
 		392967502952DD1D004BA84A /* IntroduceStudentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				39EF8E172953FAC0002FA387 /* PMINGLIU.ttf */,
-				39EF8E132953FA3D002FA387 /* RobotoSlab-VariableFont_wght.ttf */,
 				392967512952DD1D004BA84A /* IntroduceStudentUITests.swift */,
 				392967532952DD1D004BA84A /* IntroduceStudentUITestsLaunchTests.swift */,
 			);
@@ -239,8 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EF8E142953FA3D002FA387 /* RobotoSlab-VariableFont_wght.ttf in Resources */,
-				39EF8E182953FAC0002FA387 /* PMINGLIU.ttf in Resources */,
 				3929673D2952DD1D004BA84A /* LaunchScreen.storyboard in Resources */,
 				3929673A2952DD1D004BA84A /* Assets.xcassets in Resources */,
 				392967382952DD1C004BA84A /* Main.storyboard in Resources */,
