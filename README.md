@@ -7,6 +7,7 @@ This IOS app is built for university students to introduce themselves! This incl
 ### App Walk-through
 
 ![demogif](https://user-images.githubusercontent.com/56568238/209046355-3709f192-a43c-452c-80cd-f979dea4ba74.gif)
+![gifvideo](https://user-images.githubusercontent.com/56568238/209046557-60d8c04d-c5d6-4f7c-9504-8262fdaf5781.gif)
 
 ### Required Features
 
